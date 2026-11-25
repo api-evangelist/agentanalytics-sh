@@ -66,7 +66,7 @@
 
 Agent Analytics provides AI‑agent‑ready web analytics, offering real‑time product evidence such as traffic, events, funnels, retention, and experiment results. Their platform includes a hosted MCP, a CLI, and a skill that lets agents like Claude, Cursor, and ChatGPT query analytics data. Users can start for free, integrate via SDKs, and view dashboards. The service emphasizes open‑source MIT licensing and supports multiple languages and frameworks.
 
-**Areas:** Analytics · AI · WebAnalytics · OpenSource · SaaS
+**Areas:** Analytics · Artificial Intelligence · Web Analytics · Open Source · Software-as-a-Service
 
 ## Agent Analytics on APIs.io
 
@@ -80,6 +80,12 @@ Everything profiled for Agent Analytics is published on APIs.io rather than in t
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentanalytics-sh-mcp.yml](https://apis.io/servers/agentanalytics-sh/agentanalytics-sh-mcp-yml/)
 
 #### JSON Schema (6)
 
@@ -108,15 +114,15 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentanalytics Sh Authentication](https://apis.io/security/agentanalytics-sh/agentanalytics-sh-authentication/)
-- [Agentanalytics Sh Domain Security](https://apis.io/security/agentanalytics-sh/agentanalytics-sh-domain-security/)
-- [Agentanalytics Sh Vulnerability Disclosure](https://apis.io/security/agentanalytics-sh/agentanalytics-sh-vulnerability-disclosure/)
+- [Agent Analytics Authentication](https://apis.io/security/agentanalytics-sh/agentanalytics-sh-authentication/)
+- [Agent Analytics Domain Security](https://apis.io/security/agentanalytics-sh/agentanalytics-sh-domain-security/)
+- [Agent Analytics Vulnerability Disclosure](https://apis.io/security/agentanalytics-sh/agentanalytics-sh-vulnerability-disclosure/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Agentanalytics Sh Rate Limits](https://apis.io/rate-limits/agentanalytics-sh/agentanalytics-sh-rate-limits/)
+- [Agent Analytics Rate Limits](https://apis.io/rate-limits/agentanalytics-sh/agentanalytics-sh-rate-limits/)
 
 ## Where to find this API
 
@@ -135,25 +141,25 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 57.2** — strong · rubric 0.25.0 · scored 2026-11-01
+**Kin Score 51.5** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
+| Discoverability | 73.2 |
 | Contract quality | 51.0 |
-| Contract governance | 79.1 |
-| Operational transparency | 44.2 |
+| Contract governance | 22.0 |
+| Operational transparency | 42.9 |
 | Developer ergonomics | 71.4 |
-| Access clarity | 31.6 |
+| Access clarity | 38.3 |
 
-**Agent readiness 32.2** — agent-ready
+**Agent readiness 29.6** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
 | Agentic Access | — |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
 | Error Semantics | derived (partial credit) |
@@ -162,7 +168,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Event Surface Described | — |
 | Agent Skills | — |
 | Well Known Catalog | yes |
-| Consent Identity | — |
+| Consent Identity | signal |
 | Agent Card | — |
 | Dry Run Mode | — |
 | Delegated Identity | — |
@@ -171,6 +177,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
 
